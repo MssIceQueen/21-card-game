@@ -3,38 +3,54 @@
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
         <link href="stylesheet.css" rel="stylesheet">
         <title>Black-Jack</title>
     </head>
     <body>
-        <div class="container">
+        <div class="game">
             <header>
                 <h1>BLACK JACK</h1>
                 <h2>21 GAME</h2>
             </header>
-            <div class="content">
-                <section class="howto">
+            <section class="game-body">
+                <div id="howto">
+
                     <h3>How to play?</h3>
                     <p>The player who reaches the number 21 first or has the highest hand wins. If you go over 21 you
                         lose, if you stand before you reach 21 and the dealer has a higher hand you lose too.</p>
-                </section>
-                <section class="dealer">
+                </div>
+            </section>
+            <section class="game-options">
 
-                </section>
-                <section class="player">
+                <button type="button" id="start"><strong>Start</strong></button>
 
-                </section>
-
-                <section class="outcome">
-
-                    <div id='score'>
+                <div class="players">
+                    <h4>Computer's Hand</h4>
+                    <div id="computer">
 
                     </div>
-                    <div id='message'>
+                    <div id="compScore">
+                        Score
+                    </div>
+                    <h4>Player's Hand:</h4>
+                    <div id="player">
 
                     </div>
-                </section>
-            </div>
-            <script src="script.js"></script>
+                    <div id="playerScore"> Score
+
+                        </div>
+                </div>
+                <!-- <button type="button" id="draw"><strong>Draw a card</strong></button>
+                <button type="button" id="Hold"><strong>Hold</strong></button> -->
+                <button type="button" id="clear"><strong>Reset</strong></button>
+        </div>
+        </section>
+        <script src="script.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+                defer></script>
+        </div>
     </body>
 </html>
+
+
