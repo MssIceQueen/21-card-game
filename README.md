@@ -1,4 +1,6 @@
-# Title: 21 card game
+# 21 card game
+
+https://mssicequeen.github.io/21-card-game/
 
 - Repository: `js-21-card-game`
 - Type of Challenge: `Learning Challenge`
